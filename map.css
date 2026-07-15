@@ -1,5 +1,5 @@
 * {
-    margin: 0;
+    margin: 8px;
     padding: 0;
     box-sizing: border-box;
 }
@@ -19,11 +19,11 @@ body {
 
 header {
 
-    height: 95px;
+    height: 60px;
 
     background: #000;
 
-    border-bottom: 3px solid #ffd400;
+    border-bottom: 1px solid #ffd400;
 
     display: flex;
 
@@ -36,30 +36,16 @@ header {
 }
 
 .logo img {
-
-    width: 60px;
-
-    margin-bottom: 8px;
-
+    width: 42px;
+    display: block;
     transition: transform .2s ease;
+}
 
 }
 
 .logo:hover img {
 
     transform: scale(1.05);
-
-}
-
-h1 {
-
-    font-family: 'Bebas Neue', sans-serif;
-
-    color: #ffd400;
-
-    letter-spacing: 4px;
-
-    font-size: 30px;
 
 }
 
