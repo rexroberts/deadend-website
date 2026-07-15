@@ -144,3 +144,19 @@ h1 {
   color: #ffd400;
 
 }
+
+.tagline a {
+
+    color: white;
+
+    text-decoration: none;
+
+    transition: color .2s ease;
+
+}
+
+.tagline a:hover {
+
+    color: #ffd400;
+
+}
