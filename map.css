@@ -17,38 +17,51 @@ body {
     flex-direction: column;
 }
 
+
+/* Header */
+
 header {
 
-    height: 60px;
+    height: 70px;
 
     background: #000;
 
-    border-bottom: 2px solid #ffd400;
+    border-bottom: 3px solid #ffd400;
 
     display: flex;
 
-    justify-content: center;
-
     align-items: center;
 
-    padding: 0 20px;
-
+    padding: 0 24px;
 
 }
+
+
+/* Logo */
 
 .logo {
+
     display: flex;
+
     align-items: center;
+
     margin-right: auto;
+
 }
+
 
 .logo img {
+
     width: 42px;
+
+    height: auto;
+
     display: block;
+
     transition: transform .2s ease;
-}
 
 }
+
 
 .logo:hover img {
 
@@ -56,11 +69,15 @@ header {
 
 }
 
+
+/* Map */
+
 .map-wrapper {
 
     flex: 1;
 
 }
+
 
 iframe {
 
